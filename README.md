@@ -3,7 +3,7 @@
 
 This project was originally developed to serve as a *healthy* alternative of YouTube for a university seminar course. That course was on the ethics of artificial intelligence & social media. The course's goal was to incorporate healthy mechanisms and design into a social media platform, YouTube in this case, with an analysis on the effectiveness of the implementations to follow. While it was originally going to be a large group project, it ended up being a sole project of mine. I still have much to learn about Javascript, asynchronous algorithms, and CSS. Thus, the development of this project is still ongoing.
 
-Since then, I have added two sub goals for this project. The first is to write it with standard HTML, CSS, and Javascript so that it is computationally lean and independent from constantly updating frameworks. The second is to analyse the sort of videos YouTube recommends to understand how potentially unhealthy they can be.
+I have two additional sub goals for this project. The first is to write it only with standard HTML, CSS, and Javascript so that it is computationally lean and independent from constantly updating frameworks. The second is to analyse the sort of videos YouTube recommends to understand how potentially unhealthy they can be.
 
 > [!NOTE]
 > The seminar course follows on the work done by the Professor and a student on analysing YouTube's recommendation system. To learn more about their work: [Analysis of the Impact of Algorithms on Siloing Users: Special Focus on YouTube](https://doi.org/10.1201/9781003261247-6)
