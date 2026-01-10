@@ -1,0 +1,100 @@
+button, .button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin-inline: 1%;
+    width: 9em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(40, 107, 231);
+    border-radius: 10px;
+    border-color: rgb(40, 107, 231);
+    transition: 0.3s;
+
+}
+button:hover, .button:hover, .deleteButton:hover {
+    background-color: rgb(70, 140, 255);
+    border-color: rgb(70, 140, 255);
+}
+
+.deleteButton {
+    display: inline-block;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 14px;
+    margin-inline: 1%;
+    width: 3em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(40, 107, 231);
+    border-radius: 10px;
+    border-color: rgb(40, 107, 231);
+    transition: 0.3s;
+}
+
+.videoTitle {
+    font-weight: bold;
+}
+
+.videoChannel {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none; /* Hide list points */
+    padding: 0;
+}
+
+li {
+    padding: 0.5em;
+    margin: auto;
+}
+
+.videoTextInfo {
+    display: inline-block;
+    text-align: left;
+    margin: 1em;
+    min-width: 2em;
+    max-width: 18em;
+    text-overflow: ellipsis;
+}
+
+#left_video_column {
+    display: inline-flex;
+    margin-left: 30%;
+}
+#right_tag_column {
+    float: right;
+    margin-right: 20%;
+    margin-top: 1.5em;
+}
+
+#ShowTagsHere {
+    /**/
+}
+
+#Export_Options {
+    display: none;
+    position: absolute;
+    padding-left: 52em;
+}
+
+.History_Options:hover #Export_Options {
+    display: flex;
+    position: relative;
+}
+
+footer {
+    margin-top: 4%;
+    display: block;
+    margin-bottom: 5%;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(40, 107, 231);
+}

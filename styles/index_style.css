@@ -1,0 +1,45 @@
+button, .button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin-inline: 1%;
+    width: 12.2em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(40, 107, 231);
+    border-radius: 10px;
+    border-color: rgb(40, 107, 231);
+    transition: 0.3s;
+
+}
+button:hover, .button:hover {
+    background-color: rgb(70, 140, 255);
+    border-color: rgb(70, 140, 255);
+}
+
+#searchBox {
+    position: relative;
+    /*perspective: 100px;*/
+    animation: rotate 6s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+footer {
+    margin-top: 4%
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(40, 107, 231);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viewed Videos</title>
+    <link rel="stylesheet" href="styles/history_style.css"/>
+    <script src="javascripts/VideoHistory.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>TidyTube</h1>
+        <h3>Search up the fun 🔍</h3>
+    </header>
+    <!--
+        If webpage is empty, display text encouraging user to watch videos
+        Otherwise, display videos from IndexedDB as an HTML list
+        Sort videos by latest watch order
+        Display small thumbnail images, with information on the right
+        Have title at top, channel name at middle, and date uploaded at bottom
+        Categorise videos by date watched
+     -->
+    <div id="left_video_column">
+        <ul>
+
+        </ul>
+    </div>
+    <div id="right_tag_column">
+        <div id="ShowTagsHere">
+
+        </div>
+    </div>
+    <footer>
+        <a class="button" href="index.html">Main Page</a>
+        <button class="button">Clear History</button>
+        <div class="History_Options">
+            <button class="exportbutton">Export History ▼</button>
+            <div id="Export_Options">
+                <a download="videohistory.csv" href='#' class="button" id="LinkToCSV">As CSV</a>
+                <a download="videohistory.json" href='#' class="button" id="LinkToJSON">As JSON</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

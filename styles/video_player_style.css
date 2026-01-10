@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(40, 107, 231);
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    margin-inline: 1%;
+    width: 7em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(40, 107, 231);
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+button:hover, .button:hover {
+    background-color: rgb(70, 140, 255);
+    border-color: rgb(70, 140, 255);
+}
+
+#current_video {
+    width: 800px;
+    margin: auto;
+    text-align: left;
+    
+}
+
+.video_link {
+    display: inline-flex;
+    overflow: clip;
+    width: 320px;
+    /*height: 280px;*/
+    border-radius: 10px;
+    margin: 30px;
+}
+
+footer {
+    margin-top: 5%
+}
