@@ -6,7 +6,7 @@ This project was originally developed to serve as a *healthy* alternative of You
 I have two additional sub goals for this project. The first is to write it only with standard HTML, CSS, and Javascript so that it is computationally lean and independent from constantly updating frameworks. The second is to analyse the sort of videos YouTube recommends to understand how potentially unhealthy they can be.
 
 > [!NOTE]
-> The seminar course follows on the work done by the Professor and a student on analysing YouTube's recommendation system. To learn more about their work: [Analysis of the Impact of Algorithms on Siloing Users: Special Focus on YouTube](https://doi.org/10.1201/9781003261247-6)
+> The seminar course continues the work done by the Professor and a student on analysing YouTube's recommendation system. To learn more about their work: [Analysis of the Impact of Algorithms on Siloing Users: Special Focus on YouTube](https://doi.org/10.1201/9781003261247-6)
 
 ## Introduction
 
