@@ -6,7 +6,7 @@ This project was originally developed to serve as a *healthy* alternative of You
 I have two additional sub goals for this project. The first is to write it only with standard HTML, CSS, and Javascript so that it is computationally lean and independent from constantly updating frameworks. The second is to analyse the sort of videos YouTube recommends to understand how potentially unhealthy they can be.
 
 > [!NOTE]
-> The seminar course continues the work done by the Professor and a student on analysing YouTube's recommendation system. To learn more about their work: [Analysis of the Impact of Algorithms on Siloing Users: Special Focus on YouTube](https://doi.org/10.1201/9781003261247-6)
+> The seminar course continued the work done by the Professor and a student on analysing YouTube's recommendation system. To learn more about their work: [Analysis of the Impact of Algorithms on Siloing Users: Special Focus on YouTube](https://doi.org/10.1201/9781003261247-6)
 
 ## Introduction
 
@@ -23,7 +23,7 @@ Once you obtained an API key, copy and paste it into the files `YouTubeAPISearch
 
 Look for the variable `const the_key` to associate the API key to, or search for the comment `// YouTube API Key` in the files.
 
-Once done, access `index.html` via a host. This can be local host or an online server. YouTube's API requests do not work without a server host.
+Once done, access `index.html` via a host. This can be on a local host or an online server. YouTube's API requests do not work outside of a server context. To host TidyTube locally, [Jetbrains WebStorm](https://www.jetbrains.com/webstorm/) is a suitable option for that.
 
 ## Future Plans
 
