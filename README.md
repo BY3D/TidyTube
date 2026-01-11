@@ -1,18 +1,18 @@
 # The TidyTube Project
 ## Preface
 
-This project was originally developed to serve as a *healthy* alternative of YouTube for a university seminar course. That course was on the ethics of artificial intelligence & social media. The course's goal was to incorporate healthy mechanisms and design into a social media platform, YouTube in this case, with an analysis on the effectiveness of the implementations to follow. While it was originally going to be a large group project, it ended up being a sole project of mine. I still have much to learn about Javascript, asynchronous algorithms, and CSS. Thus, the development of this project is still ongoing.
+This project was originally developed to serve as a *healthy* version of YouTube for a university seminar course. That course was on the ethics of artificial intelligence & social media. The course's goal was to incorporate healthy mechanisms and design into a social media platform, YouTube in this case, followed by an analysis on the effectiveness of the implementations. While it was originally going to be a large group project, it ended up being a sole project of mine. I still have much to learn about Javascript, asynchronous algorithms, and CSS. Thus, the development of this project is still ongoing.
 
 I have two additional sub goals for this project. The first is to write it only with standard HTML, CSS, and Javascript so that it is computationally lean and independent from constantly updating frameworks. The second is to analyse the sort of videos YouTube recommends to understand how potentially unhealthy they can be.
 
 > [!NOTE]
-> The seminar course continued the work done by the Professor and a student on analysing YouTube's recommendation system. To learn more about their work: [Analysis of the Impact of Algorithms on Siloing Users: Special Focus on YouTube](https://doi.org/10.1201/9781003261247-6)
+> The seminar course was a continuation of the work done by the Professor and a student on analysing YouTube's recommendation system. To learn more about their work: [Analysis of the Impact of Algorithms on Siloing Users: Special Focus on YouTube](https://doi.org/10.1201/9781003261247-6)
 
 ## Introduction
 
 TidyTube is an alternative interface for watching YouTube videos. Currently, there are six categories of videos you can watch: Domestic News, International News, Wildlife, Pets, Recipes, and Food Experiences. By default, YouTube will try to search for videos from the United States in American English.
 
-Each category offers 10 videos to watch. Videos are showcased on a dedicated webpage with their relevant information and related videos. Videos watched are saved to the web browser's local database (IndexedDB) where you can examine your viewing history. You can download your viewing history as a CSV or JSON file.
+Each category offers 10 videos to watch. Videos are showcased on a dedicated webpage with their relevant information and related videos. Videos watched are saved to the web browser's local database (IndexedDB) where you can examine your viewing history. You can download your viewing history as a CSV or JSON file. The viewing history page also showcases the most popular tags of the saved videos.
 
 
 ## Requirements to make TidyTube Function
