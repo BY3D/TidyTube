@@ -19,7 +19,7 @@ Each category offers 10 videos to watch. Videos are showcased on a dedicated web
 
 Before TidyTube can be used, you must generate an API key for YouTube's search functionality to work. Visit Google's webpage on the YouTube Data API v3 to get an API key, it's currently free to obtain one: [Getting Started with YouTube Data API](https://developers.google.com/youtube/v3/getting-started)
 
-Once you obtained an API key, copy and paste it into the files `YouTubeAPISearch.js` and `YouTubeVideoPlayer.js`.
+Once you obtained an API key, visit the `javascripts` folder to copy and paste it into the files `YouTubeAPISearch.js` and `YouTubeVideoPlayer.js`.
 
 Look for the variable `const the_key` to associate the API key to, or search for the comment `// YouTube API Key` in the files.
 
