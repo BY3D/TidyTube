@@ -23,7 +23,15 @@ Once you obtained an API key, visit the `javascripts` folder to copy and paste i
 
 Look for the variable `const the_key` to associate the API key to, or search for the comment `// YouTube API Key` in the files.
 
-Once done, access `index.html` via a host. This can be on a local host or an online server. YouTube's API requests do not work outside of a server context. To host TidyTube locally, [Jetbrains WebStorm](https://www.jetbrains.com/webstorm/) is a suitable option for that.
+Once done, access `index.html` via a server. This can be on a local server or an online server. YouTube's API requests do not work outside of a server context. To host TidyTube locally, you can try the options listed in [Mozilla's Guide](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/set_up_a_local_testing_server)
+
+Hosting Steps if you have Python installed:
+1. Navigate to the folder containing `index.html`
+2. Open a Terminal or Command Prompt session in the folder
+3. Type in `python -m http.server ####` where `####` is the server ID. Leave it empty to use the default `8000`
+4. If the terminal says that Python could not be found, then try `py -m http.server ####`
+5. Go to your web browser and enter `localhost:####`
+6. When you're done using TidyTube, you can close the Terminal/Command Prompt session to shut down the local server
 
 ## Future Plans
 
